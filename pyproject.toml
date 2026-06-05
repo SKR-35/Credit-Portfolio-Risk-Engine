@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "credit-portfolio-risk-engine"
+version = "0.1.0"
+description = "End-to-end credit risk portfolio engine built with XGBoost, FastAPI, Streamlit and MLflow."
+readme = "README.md"
+requires-python = ">=3.10"
+
+authors = [
+    { name = "SKR-35" }
+]
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "xgboost",
+    "joblib",
+    "fastapi",
+    "uvicorn",
+    "streamlit",
+    "requests",
+    "mlflow"
+]
