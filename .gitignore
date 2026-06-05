@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+data/raw/*
+data/interim/*
+data/processed/*
+
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Models
+models/*
+
+!models/.gitkeep
+
+# MLflow
+mlruns/
+reports/mlruns/
+mlflow.db
+*.db
+
+# Generated Reports
+reports/*.csv
+reports/*.json
+reports/*.png
+reports/*.html
+
+# Large Files
+*.parquet
+*.csv
+*.zip
+*.joblib
+*.pkl
+
+# Logs
+*.log
+
+# Temporary
+tmp/
+temp/
