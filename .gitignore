@@ -50,6 +50,7 @@ reports/*.png
 reports/*.html
 reports/inspection/*.txt
 reports/sample_300k/*
+reports/training_all/*
 
 # Large Files
 *.parquet
