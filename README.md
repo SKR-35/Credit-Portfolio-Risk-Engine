@@ -12,20 +12,24 @@ End-to-end credit risk scoring application built with:
 
 ## Project Overview
 
-This project demonstrates a complete machine learning workflow for credit risk modeling.
+This project demonstrates the development of an end-to-end credit risk data product.
 
-The solution starts from raw credit portfolio data, performs feature engineering, trains gradient boosted models, tracks experiments with MLflow, serves predictions through a REST API, and exposes a user-friendly Streamlit dashboard.
+Starting from raw credit portfolio data, the solution performs feature engineering, trains and evaluates machine learning models, tracks experiments with MLflow, serves predictions through a FastAPI REST API and exposes a business-friendly Streamlit dashboard.
 
-The objective is to estimate Probability of Default (PD) for credit applicants or existing portfolio customers.
+The objective is to estimate Probability of Default (PD) for credit applicants or existing portfolio customers while showcasing the full lifecycle of a modern machine learning solution.
 
-This repository focuses on practical machine learning engineering concepts:
+The project focuses on practical data science and machine learning engineering concepts, including:
 
 * Feature engineering
 * Model experimentation
-* Model serving
+* Model selection
 * Experiment tracking
+* API development
+* Dashboard development
 * Containerization
 * End-to-end deployment
+
+Version 0.1 follows an experimentation-first approach, allowing feature groups and data sources to be evaluated incrementally before moving toward a production-grade architecture.
 
 ---
 
