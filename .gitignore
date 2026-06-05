@@ -49,6 +49,7 @@ reports/*.json
 reports/*.png
 reports/*.html
 reports/inspection/*.txt
+reports/sample_300k/*
 
 # Large Files
 *.parquet
