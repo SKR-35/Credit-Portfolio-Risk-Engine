@@ -244,9 +244,3 @@ Planned improvements:
 * Cloud deployment
 * Production-grade feature pipelines
 * Enhanced Streamlit user experience
-
----
-
-## License
-
-Apache 2.0
