@@ -48,6 +48,7 @@ reports/*.csv
 reports/*.json
 reports/*.png
 reports/*.html
+reports/inspection/*.txt
 
 # Large Files
 *.parquet
