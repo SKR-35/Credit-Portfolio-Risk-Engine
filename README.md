@@ -10,10 +10,6 @@ End-to-end credit risk scoring application built with:
 
 ---
 
-## Application Preview
-
-![Credit Risk Engine](docs/images/ui_preview.png)
-
 ## Project Overview
 
 This project demonstrates the development of an end-to-end credit risk data product.
@@ -57,6 +53,12 @@ FastAPI REST API
     ▼
 Streamlit Dashboard
 ```
+
+---
+
+## Application Preview
+
+![Credit Risk Engine](docs/images/ui_preview.png)
 
 ---
 
